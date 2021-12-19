@@ -30,7 +30,7 @@ function magisk_replace_file() {
     fi
 }
 
-# 取消文件替换，用法如：
+# Cancel文件替换，用法如：
 # magisk_cancel_replace "/system/media/theme/default/com.android.systemui"
 function magisk_cancel_replace()
 {

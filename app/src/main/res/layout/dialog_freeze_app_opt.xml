@@ -79,7 +79,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="取消偏见" />
+                android:text="Cancel偏见" />
 
             <TextView
                 style="@style/textSecondary"

@@ -230,13 +230,13 @@
                             android:id="@+id/task_zen_mode_on"
                             android:layout_width="110dp"
                             android:layout_height="wrap_content"
-                            android:text="开" />
+                            android:text="Open" />
 
                         <RadioButton
                             android:id="@+id/task_zen_mode_off"
                             android:layout_width="110dp"
                             android:layout_height="wrap_content"
-                            android:text="关" />
+                            android:text="Close" />
                     </LinearLayout>
 
                 </LinearLayout>

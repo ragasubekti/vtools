@@ -42,7 +42,7 @@
                         android:layout_height="wrap_content"
                         android:layout_width="0dp"
                         android:layout_weight="1"
-                        android:text="已激活"
+                        android:text="Activated"
                         android:textColor="?android:colorAccent" />
                     <TextView
                         android:id="@+id/swap_module_uninstalled"
@@ -51,14 +51,14 @@
                         android:layout_height="wrap_content"
                         android:layout_width="0dp"
                         android:layout_weight="1"
-                        android:text="未激活"
+                        android:text="Inactivated"
                         android:textColor="@android:color/darker_gray" />
                     <TextView
                         android:id="@+id/swap_module_downloadable"
                         style="@style/textDefault"
                         android:layout_height="wrap_content"
                         android:layout_width="wrap_content"
-                        android:text="有可用更新/下载"
+                        android:text="Updates/downloads available"
                         android:textColor="@android:color/holo_green_light" />
                 </LinearLayout>
             </LinearLayout>
@@ -137,7 +137,7 @@
                             style="@style/textSecondary"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="重启后失效" />
+                            android:text="Invalid after restart" />
                     </LinearLayout>
                     <LinearLayout
                         android:layout_width="wrap_content"
@@ -249,7 +249,7 @@
                             style="@style/textSecondary"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="重启后失效" />
+                            android:text="Invalid after restart" />
                     </LinearLayout>
                     <LinearLayout
                         android:layout_width="wrap_content"
@@ -352,7 +352,7 @@
 
                     </LinearLayout>
 
-                    <Button style="@style/SceneButton" android:id="@+id/swappiness_adj" android:text="调整" android:layout_gravity="center_vertical" />
+                    <Button style="@style/SceneButton" android:id="@+id/swappiness_adj" android:text="Adjust" android:layout_gravity="center_vertical" />
                 </LinearLayout>
             </TableLayout>
 
@@ -419,7 +419,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="@dimen/activity_vertical_margin"
                     style="@style/textTitle"
-                    android:text="已开启的SWAP" />
+                    android:text="SWAP opened" />
 
                 <ListView
                     android:id="@+id/list_swaps"

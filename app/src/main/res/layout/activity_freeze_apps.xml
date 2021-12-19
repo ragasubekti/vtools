@@ -48,7 +48,7 @@
                                 style="@style/textSmall"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:text="小提示"
+                                android:text="Hint"
                                 android:textColor="?android:colorAccent" />
 
                             <TextView
@@ -56,7 +56,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="5dp"
-                                android:text="应用偏见功能需要激活场景模式(辅助服务)，才能自动冻结应用" />
+                                android:text="The application bias function needs to activate the scene mode (accesibilty service) to automatically freeze the application" />
                         </LinearLayout>
 
                         <ImageButton
@@ -147,7 +147,7 @@
                                     android:layout_width="0dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
-                                    android:text="保留应用图标" />
+                                    android:text="Keep app icons" />
 
                             </LinearLayout>
 
@@ -191,7 +191,7 @@
                                     android:layout_width="0dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
-                                    android:text="单击启动应用" />
+                                    android:text="Click to launch the app" />
                             </LinearLayout>
 
                             <LinearLayout
@@ -211,7 +211,7 @@
                                     android:layout_width="0dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
-                                    android:text="提示创建快捷方式" />
+                                    android:text="Prompt to create a shortcut" />
                             </LinearLayout>
                         </LinearLayout>
 
@@ -233,7 +233,7 @@
                                     android:layout_width="0dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
-                                    android:text="活动时间限制（分）" />
+                                    android:text="Activity time limit (minutes)" />
                             </LinearLayout>
 
                             <LinearLayout
@@ -273,14 +273,14 @@
                                 <com.omarea.ui.HelpIcon
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    app:text="能同时处于解冻状态的偏见应用最大数量，0表示不限制" />
+                                    app:text="The maximum number of bias applications that can be in a thawed state at the same time, 0 means no limit" />
 
                                 <TextView
                                     style="@style/textTitle"
                                     android:layout_width="0dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
-                                    android:text="活动数量限制（个）" />
+                                    android:text="Limit on the number of activities (a)" />
                             </LinearLayout>
 
                             <LinearLayout
@@ -321,14 +321,14 @@
                                 <com.omarea.ui.HelpIcon
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    app:text="息屏后冻结偏见应用的延迟时间" />
+                                    app:text="Freeze the delay time of the bias application after the screen is off" />
 
                                 <TextView
                                     style="@style/textTitle"
                                     android:layout_width="0dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
-                                    android:text="息屏处理延迟（分）" />
+                                    android:text="Screen processing delay (min)" />
                             </LinearLayout>
 
                             <LinearLayout
@@ -371,14 +371,14 @@
                                 <com.omarea.ui.HelpIcon
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    app:text="在桌面显示“应用偏见”管理界面快捷入口" />
+                                    app:text="Display the shortcut entry of the \'application bias\' management interface on the desktop" />
 
                                 <Switch
                                     android:id="@+id/freeze_quick_entry"
                                     android:layout_width="0dp"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
-                                    android:text="桌面快捷入口" />
+                                    android:text="Desktop shortcut entry" />
 
                             </LinearLayout>
 

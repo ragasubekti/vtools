@@ -67,7 +67,7 @@
         <Button
             android:id="@+id/btn_cancel"
             style="@style/dialogCancelBtn"
-            android:text="取消" />
+            android:text="Cancel" />
 
         <Button
             android:layout_marginStart="8dp"
